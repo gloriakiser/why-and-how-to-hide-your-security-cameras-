@@ -1,0 +1,258 @@
+body {
+		  min-height: 100vh; 
+		  position: relative;
+  		margin: 0;
+		}
+
+footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+    	path {
+    fill: #4b78a2;
+}
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+    	.map, .car  {
+    		padding-bottom: 55px;
+    	}
+    	.header {
+	    min-height: 300px;
+	    background: url(./index_files/head.jpeg);
+	    position: relative;
+	    background-position: center;
+	    background-size: cover;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	h5 {
+		width: 100%;
+		text-align: center;
+		font-size: 2.5rem;
+		color: white;
+    	font-weight: 700;
+	}
+	.card-deck {
+	  display: flex;
+	  flex-direction: row;
+	  flex-wrap: wrap;
+	  justify-content: center;
+
+
+	}
+	.card-body {
+		padding: 5px 3px;
+	} 
+	.card-deck .card {
+		width: 20%;
+		min-width: 20%;
+		flex: 0 0 auto;
+		margin-bottom: 30px;
+	}
+	.card-header h4 {
+		display: block;
+	}
+	.card-body .logo {
+	    height: 100%;
+	    align-items: center;
+	    display: flex;
+	}
+	.card-body .logo img {
+		max-width: 100%;
+	}
+	footer {
+		background-color: #0e4071;
+		max-width: 100%;
+		margin: 0;
+		color: #fff;
+		padding: 15px;
+		text-align: center;
+	}
+	.modal-title {
+		color: #0e4071;
+	}
+	.modal-body span.warninig {
+	    color: red;
+	}
+	a.card {
+		color: rgb(47, 47, 47);
+	}
+	a.card:hover {
+		border: 1px solid rgba(13, 64, 113, 0.42);
+		color: rgb(6, 35, 62);
+		text-decoration: none;
+	}
+
+.link {
+	color: #fff;
+	padding: 0 10px;
+	display: inline-block;
+}
+.link:hover {
+	color: #c2d7ea;
+}
+	#us-map{
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+}
+path:hover, circle:hover {
+  cursor: pointer;
+}
+#path67 {
+  fill: none !important;
+  stroke: #A9A9A9 !important;
+  cursor: default;
+}
+#info-box {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  background-color: #ffffff;
+  border: 2px solid #BF0A30;
+  border-radius: 5px;
+  padding: 5px;
+  font-family: arial;
+}
+path.northwest {
+	fill:#14922e;
+}
+path.west {
+	fill:#fec200;
+}
+path.southwest {
+	fill:#f24f0f;
+}
+path.north {
+	fill:#2abbec;
+}
+path.central {
+	fill:#8ab71e;
+}
+path.south {
+	fill:#e20916;
+}
+path.southeast {
+	fill:#fe9b00;
+}
+path.east {
+	fill:#dd0067;
+}
+path.northeast {
+	fill:#0082d6;
+}
+
+path.AK.hover {
+	fill:#3c6286;
+	stroke: #3c6286 !important;
+}
+path.HI.hover {
+	fill:#3c6286;
+	stroke: #3c6286 !important;
+}
+path.northwest.hover {
+	fill:#0e6b21;
+	stroke: #0e6b21 !important;
+}
+path.west.hover {
+	fill:#ce9f08;
+	stroke: #ce9f08 !important;
+}
+path.southwest.hover {
+	fill:#c54513;
+	stroke: #c54513 !important;
+}
+path.north.hover {
+	fill:#33a8d0;
+	stroke: #33a8d0 !important;
+}
+path.central.hover {
+	fill:#6e9218;
+	stroke: #6e9218 !important;
+}
+path.south.hover {
+	fill:#bd0813;
+	stroke: #bd0813 !important;
+}
+path.southeast.hover {
+	fill:#d48303;
+	stroke: #d48303 !important;
+}
+path.east.hover {
+	fill:#b90458;
+	stroke: #b90458 !important;
+}
+path.northeast.hover {
+	fill:#0674bb;
+	stroke: #0674bb !important;
+}
+.map text {
+    font-weight: 700;
+}
+
+	@media (max-width: 991px) {
+		.card-deck .card {
+		    width: 27%;
+		    min-width: 27%;
+		    flex: 0 0 auto;
+		    margin-bottom: 30px;
+		}
+	}
+	@media (min-width: 576px) {
+		.container.map {
+		    max-width: max-content;
+		}		
+	}
+
+	@media (max-width: 575px) {
+		.h1, h1 {
+		    font-size: 2rem;
+		}
+		.card-deck .card {
+		    width: 44%;
+		    min-width: 44%;
+		    flex: 0 0 auto;
+		    margin-bottom: 30px;
+		    margin: 10px;
+		}
+		#us-map {
+		    padding: 30px 0 30px 0;
+		}
+	}
+	@media (max-width: 363px) {
+		.h1, h1 {
+		    font-size: 1.5rem;
+		}
+		.card-deck .card {
+		    width: 43%;
+		    min-width: 43%;
+		    margin: 3px;
+		}
+		.container.car {
+		    padding-bottom: 90px;
+		}
+		.h4, h4 {
+		    font-size: 1rem;
+		}
+	}
